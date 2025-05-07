@@ -23,7 +23,7 @@ jobs:
       - name: Upload site
         uses: actions/upload-pages-artifact@v3
         with:
-          path: NoahTheProgrammerHTML/TI-History/.github/workflows/static.yml
+          path: TI-History/.github/workflows/static.yml
 
       - name: Deploy
         uses: actions/deploy-pages@v4
