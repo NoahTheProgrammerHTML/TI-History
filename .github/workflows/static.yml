@@ -23,7 +23,7 @@ jobs:
       - name: Upload site
         uses: actions/upload-pages-artifact@v3
         with:
-          path: main/root
+          path: NoahTheProgrammerHTML/TI-History
 
       - name: Deploy
         uses: actions/deploy-pages@v4
